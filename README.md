@@ -34,7 +34,7 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 
 ## Game Details
 
-Biome
+Location
 
 -   underwater
 -   desert
@@ -50,7 +50,7 @@ Architecture
 -   classic-snow-bungalow
 -   contemporary-sith
 
-Attractions \*\*\* Just realized user will be adding attractions so these might never get used :(
+Attractions. Just realized user will be adding attractions so these might never get used :(
 
 -   cantina
 -   milk stand
