@@ -1,0 +1,26 @@
+main {
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    gap: 40px;
+}
+
+.designer {
+    display: grid;
+    gap: 10px;
+}
+
+#planet-article {
+    display: grid;
+}
+
+label {
+    display: grid;
+}
+
+article {
+    display: grid;
+}
+
+img {
+    height: 100px;
+}
