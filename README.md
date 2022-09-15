@@ -32,6 +32,35 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
     -div with
     -ul of attractions
 
+## Game Details
+
+Biome
+
+-   underwater
+-   desert
+-   rain forrest
+-   tundra
+-   volcano
+
+Architecture
+
+-   industrial-futuristic
+-   rural-vernacular
+-   kashyyyk-organic
+-   classic-snow-bungalow
+-   contemporary-sith
+
+Attractions \*\*\* Just realized user will be adding attractions so these might never get used :(
+
+-   cantina
+-   milk stand
+-   jedi temple
+-   mos espa grand arena
+-   millenium falcon show room
+-   junk shop
+-   droid depot
+-   star tours
+
 // What does the city data model (shape of the object) look like?
 
 // What events on which elements will need to be handled?
@@ -40,7 +69,7 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 
 1. write out plan
 2. save images of locations & architecture with properly formatted names to grab with Javascript
-3. planet selection section of app
+3. planet designer section of app
 4. planet display section of app
 
 ## Horizontal Tasks
