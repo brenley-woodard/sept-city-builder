@@ -75,5 +75,6 @@ Attractions. Just realized user will be adding attractions so these might never 
 ## Horizontal Tasks
 
 1. create view with HTML & CSS
-2. display from blank game state
-3. event listeners that make changes apply
+2. create DOM variables for name, location, and arch.
+3. create state that grabs changing variables?
+4. add events that will change output?

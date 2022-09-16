@@ -31,10 +31,11 @@ select {
     display: grid;
     padding: 5px;
     gap: 10 px;
-    justify-content: center;
+    justify-items: center;
+    border: solid black 3px;
 }
 
-#images {
+.images {
     display: grid;
     grid-template-columns: auto;
     height: 175px;
