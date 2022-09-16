@@ -1,0 +1,43 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.designer {
+    display: grid;
+    gap: 10px;
+    padding: 30px;
+}
+
+label {
+    display: grid;
+    font-size: small;
+    gap: 2px;
+}
+
+input,
+select {
+    height: 30px;
+}
+
+.add-attraction {
+    display: grid;
+    grid-template-columns: 1 fr auto;
+}
+
+#planet-article {
+    display: grid;
+    padding: 5px;
+    gap: 10 px;
+    justify-items: center;
+    border: solid black 3px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: auto;
+    height: 175px;
+    padding: 10px;
+}

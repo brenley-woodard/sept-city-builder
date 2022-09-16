@@ -6,22 +6,75 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 
 ## Making a plan
 
-1. **Make a drawing of your app. Simple "wireframes"**
-1. **Look at the drawing and name the HTML elements you'll need to realize your vision**
-1. **Look at the drawing and imagine using the app. What _state_ do you need to track?**
-1. **For each HTML element ask: Why do I need this? (i.e., "we need div to display the results in")**
-1. **Once we know _why_ we need each element, think about how to implement the "Why" as a "How" (i.e., `resultsEl.textContent = newResults`)**
-1. **Find all the 'events' (user clicks, form submit, on load etc) in your app. Ask one by one, "What happens when" for each of these events. Does any state change? Does any DOM update?**
-1. **Think about how to validate each of your features according to a Definition of Done. (Hint: console.log usually helps here.)**
-1. **Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.**
+![](assets/wireframe.png)
 
-Additional considerations:
+## HTML
 
--   Ask: which of your HTML elements need to be hard coded, and which need to be dynamically generated?
--   Consider your data model.
-    -   What kinds of objects (i.e., Dogs, Friends, Todos, etc) will you need?
-    -   What are the key/value pairs?
-    -   What arrays might you need?
-    -   What needs to live in a persistence layer?
--   Is there some state we need to initialize?
--   Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
+-   header with icon img and game title
+-   section with
+    -   label for 'planet name'
+        -   input with planet-name-input id and value
+    -   label for 'location'
+        -   select with location-select id
+            -   options of location
+    -   label for 'architecture'
+        -   select with arch-select id
+            -   options of architecture
+    -   label for 'attractions'
+        -   input with attractions id
+        -   button to add attractions to list
+-   section with reset button ??
+
+-   article with id of planet-article
+    -h1 for planet name
+    -img of location
+    -img of architecture
+    -div with
+    -ul of attractions
+
+## Game Details
+
+Location
+
+-   underwater
+-   desert
+-   rain forrest
+-   tundra
+-   volcano
+
+Architecture
+
+-   industrial-futuristic
+-   rural-vernacular
+-   kashyyyk-organic
+-   classic-snow-bungalow
+-   contemporary-sith
+
+Attractions. Just realized user will be adding attractions so these might never get used :(
+
+-   cantina
+-   milk stand
+-   jedi temple
+-   mos espa grand arena
+-   millenium falcon show room
+-   junk shop
+-   droid depot
+-   star tours
+
+// What does the city data model (shape of the object) look like?
+
+// What events on which elements will need to be handled?
+
+## Vertical Slices
+
+1. write out plan
+2. save images of locations & architecture with properly formatted names to grab with Javascript
+3. planet designer section of app
+4. planet display section of app
+
+## Horizontal Tasks
+
+1. create view with HTML & CSS
+2. create DOM variables for name, location, and arch.
+3. create state that grabs changing variables?
+4. add events that will change output?
